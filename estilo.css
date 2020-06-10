@@ -1,13 +1,39 @@
-body {background-color: seashell;
-    font-family: 'Courier New';}
+body {
+    background-color: seashell;
+    font-family: 'Roboto', sans-serif;
+     }
    
     h1   {color:rosybrown ;}
+    h2   {color: rgb(240, 34, 102);}
+    h3   {color: black}
     .footer {
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: red;
-        color: white;
+        background-color: rgb(187, 88, 88);
+        color:black;
         text-align: center;
      }
+     .mydiv3 {
+         position: fixed;
+         border: 10px black;
+         background-color: lightskyblue;
+         padding:30px;
+         margin:50px;
+         height: 100px;
+         width: 800px;
+         text-align: center;
+     }
+    .mydiv{
+        background-color:#ccc;
+        display: inline;
+        height:80px;
+        align-items: center;
+        justify-content: space-around;
+    } 
+    .mydiv div{
+        margin:5px;
+        padding:10px;
+        background-color: rgb(206, 115, 115);
+    }
