@@ -24,6 +24,8 @@ body {
          height: 100px;
          width: 800px;
          text-align: center;
+         overflow: auto;
+         border-radius: 30px;
      }
     .mydiv{
         background-color:#ccc;
@@ -36,4 +38,7 @@ body {
         margin:5px;
         padding:10px;
         background-color: rgb(206, 115, 115);
+        border-radius: 10px;
+
     }
+    a{text-decoration: none;}
